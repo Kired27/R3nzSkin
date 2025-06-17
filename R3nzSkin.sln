@@ -1,54 +1,42 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32922.545
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R3nzSkin", "R3nzSkin\R3nzSkin.vcxproj", "{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R3nzSkin_Injector", "R3nzSkin_Injector\R3nzSkin_Injector.vcxproj", "{40F6875E-C1E5-4C10-A129-6E84CE034801}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1C9DAFE-154E-443E-9E7E-DAC46C839AAB}"
-	ProjectSection(SolutionItems) = preProject
-		.gitattributes = .gitattributes
-		.gitignore = .gitignore
-		LICENSE = LICENSE
-		README.md = README.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PythonScripts", "PythonScripts", "{D80EC08B-EC70-4DA6-8DE2-36EA4AC99769}"
-	ProjectSection(SolutionItems) = preProject
-		PythonScripts\lolskin_to_skin.py = PythonScripts\lolskin_to_skin.py
-	EndProjectSection
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		ChinaServer|x64 = ChinaServer|x64
-		ChinaServer|x86 = ChinaServer|x86
-		RiotGamesServers|x64 = RiotGamesServers|x64
-		RiotGamesServers|x86 = RiotGamesServers|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.ChinaServer|x64.ActiveCfg = ChinaServer|x64
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.ChinaServer|x64.Build.0 = ChinaServer|x64
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.ChinaServer|x86.ActiveCfg = ChinaServer|Win32
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.ChinaServer|x86.Build.0 = ChinaServer|Win32
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.RiotGamesServers|x64.ActiveCfg = RiotGamesServers|x64
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.RiotGamesServers|x64.Build.0 = RiotGamesServers|x64
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.RiotGamesServers|x86.ActiveCfg = RiotGamesServers|Win32
-		{17B6E7A6-AA76-4C09-B2AA-E2055EF748D2}.RiotGamesServers|x86.Build.0 = RiotGamesServers|Win32
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.ChinaServer|x64.ActiveCfg = ChinaServer|x64
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.ChinaServer|x64.Build.0 = ChinaServer|x64
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.ChinaServer|x86.ActiveCfg = ChinaServer|Win32
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.ChinaServer|x86.Build.0 = ChinaServer|Win32
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.RiotGamesServers|x64.ActiveCfg = RiotGamesServers|x64
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.RiotGamesServers|x64.Build.0 = RiotGamesServers|x64
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.RiotGamesServers|x86.ActiveCfg = RiotGamesServers|Win32
-		{40F6875E-C1E5-4C10-A129-6E84CE034801}.RiotGamesServers|x86.Build.0 = RiotGamesServers|Win32
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E95A1774-0E1C-43AD-B120-3B91B5D5302F}
-	EndGlobalSection
-EndGlobal
+﻿<div align="center">
+
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-%23f34b7d.svg?style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B)
+[![LOL](https://img.shields.io/badge/Game-League%20of%20Legends-445fa5.svg?style=plastic)](https://na.leagueoflegends.com)
+[![Windows](https://img.shields.io/badge/Platform-Windows-0078d7.svg?style=plastic)](https://en.wikipedia.org/wiki/Microsoft_Windows)
+[![x64](https://img.shields.io/badge/Arch-x64-red.svg?style=plastic)](https://en.wikipedia.org/wiki/X86-64)
+[![License](https://img.shields.io/github/license/R3nzTheCodeGOD/R3nzSkin.svg?style=plastic)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/R3nzTheCodeGOD/R3nzSkin.svg?style=plastic)](https://github.com/R3nzTheCodeGOD/R3nzSkin/issues)
+![Windows Workflow](https://github.com/R3nzTheCodeGOD/R3nzSkin/workflows/Windows/badge.svg?branch=main&event=push)
+
+# **R3nzSkin**
+
+## Announcement
+
+⚠️ **R3nzSkin is no longer supported** due to Riot Games implementing [Valorant's Vanguard anti-cheat to League of Legends](https://support-leagueoflegends.riotgames.com/hc/en-us/articles/24169857932435-Riot-Vanguard-League-of-Legends-).
+
+<img src="https://user-images.githubusercontent.com/58574988/134170370-c827d712-fcc7-432f-b9f8-96678ab0c9bf6.gif" alt="R3nzSkin Demo" />
+
+`R3nzSkin` is an internal skin changer for League of Legends.
+
+</div>
+
+---
+
+## Features
+
+- Change skins of champions, wards, towers, minions, and jungle monsters in-game.
+- Automatic skin database updates.
+- Support for spectator mode.
+- Change skins anytime and unlimited times during a game.
+- Supports multiple languages.
+- In-game configuration via [ImGui](https://github.com/ocornut/imgui).
+- Configuration saving/loading based on [JSON](https://github.com/nlohmann/json).
+
+---
+
+## Building
+
+1. Clone the source with recursive submodules:
+
+   ```bash
+   git clone --recursive https://github.com/R3nzTheCodeGOD/R3nzSkin.git
